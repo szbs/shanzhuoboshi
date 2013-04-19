@@ -20,4 +20,3 @@ $request_link = $to->getAuthorizeURL($tok['oauth_token'],$callback_url);
 
 header('Location:'.$request_link);
 ?>
-
