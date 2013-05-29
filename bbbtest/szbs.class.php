@@ -28,7 +28,7 @@ class plugin_szbs {
 	}
 
 	//
-	//我做一下改动试试
+	//测试
 	function global_cpnav_extra1() {
 		global $_G;
 		$_G['member']['username'] = get_displayname($_G['member']['username']);
